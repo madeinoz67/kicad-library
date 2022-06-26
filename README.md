@@ -8,7 +8,7 @@ my projects.
 1. In each project, add this repository as a git submodule:
 
     ```sh
-    git add submodule git@github.com:madeinoz67/kicad-library.git hardware/library
+    git submodule add git@github.com:madeinoz67/kicad-library.git hardware/library
     ```
 1. Update the git submodule
 
