@@ -9,7 +9,7 @@
     (property "Footprint" "esp:ESP32-C3-MINI-1-N4" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108141930_Espressif-Systems-ESP32-C3-MINI-1-N4_C2838502.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "MANUFACTURER" "Espressif Systems" (id 4) (at 0 0 0)
@@ -23,6 +23,9 @@
     )
     (property "MAXIMUM_PACKAGE_HEIGHT" "2.55mm" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ki_keywords" "RF, ESP, Expressif, WIFI" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ESP32-C3-MINI-1-N4_0_0"
       (rectangle (start -12.7 -20.32) (end 12.7 17.78)
