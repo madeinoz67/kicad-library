@@ -1,7 +1,7 @@
 (footprint "WS2812B" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 62C28ED8)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 3.8989 0.4445 180) (layer "F.SilkS")
     (effects (font (size 0.64 0.64) (thickness 0.15)))
     (tstamp 50a72c23-af64-4e21-b99b-268fb1aebab6)
