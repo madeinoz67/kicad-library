@@ -1254,7 +1254,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q?"
-			(at 0 0 0)
+			(at -0.508 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1262,7 @@
 			)
 		)
 		(property "Value" "FS8205A"
-			(at 0 0 0)
+			(at -0.254 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
