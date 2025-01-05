@@ -1250,11 +1250,14 @@
 		)
 	)
 	(symbol "FS8205A"
+		(pin_names
+			(offset 0)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Q?"
-			(at -0.508 3.81 0)
+		(property "Reference" "Q"
+			(at 10.16 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1265,7 @@
 			)
 		)
 		(property "Value" "FS8205A"
-			(at -0.254 2.032 0)
+			(at 13.97 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,6 +1273,24 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108132230_TECH-PUBLIC-FS8205A_C2830320.pdf"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 6A 19.5mΩ@4.5V,3A 1.5W 2 N-Channel SOT-23-6 MOSFETs"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1278,7 +1299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2010271837_FUXINSEMI-FS8205A_C908265.pdf"
+		(property "LCSC" "C2830320"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1287,7 +1308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 6A 18mΩ@4.5V,6A 1.5W 1.2V@250uA 2 N-Channel SOT-23-6L MOSFETs ROHS"
+		(property "ki_keywords" "Battery Protection"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1296,16 +1317,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C908265"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "FS8205A_1_1"
+		(symbol "FS8205A_0_1"
 			(circle
 				(center -6.858 -2.54)
 				(radius 0.254)
@@ -1672,6 +1684,8 @@
 					(type outline)
 				)
 			)
+		)
+		(symbol "FS8205A_1_1"
 			(pin passive line
 				(at -10.16 -2.54 0)
 				(length 2.54)
