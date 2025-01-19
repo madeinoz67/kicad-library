@@ -2228,15 +2228,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C40945"
-			(at 0 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C40945"
 			(at 0 0 0)
 			(effects
@@ -2258,7 +2249,7 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -6.35 15.24 270)
 				(length 5.08)
 				(name "MTN1"
@@ -2276,7 +2267,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -3.81 15.24 270)
 				(length 5.08)
 				(name "MTN2"
@@ -2294,7 +2285,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -1.27 15.24 270)
 				(length 5.08)
 				(name "MTN3"
@@ -2312,25 +2303,7 @@
 					)
 				)
 			)
-			(pin input line
-				(at -6.35 -15.24 90)
-				(length 5.08)
-				(name "MTN4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
+			(pin passive line
 				(at -3.81 -15.24 90)
 				(length 5.08)
 				(name "MTN5"
@@ -2348,7 +2321,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -1.27 -15.24 90)
 				(length 5.08)
 				(name "MTN6"
@@ -2385,42 +2358,6 @@
 				)
 			)
 			(pin input line
-				(at 6.35 2.54 180)
-				(length 2.54)
-				(name "D-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 2.54)
-				(name "D+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at 6.35 -2.54 180)
 				(length 2.54)
 				(name "ID"
@@ -2449,6 +2386,62 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "USB_micro_B_SMD_no_holes_1_1"
+			(pin passive line
+				(at -6.35 -15.24 90)
+				(length 5.08)
+				(name "MTN4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 2.54 180)
+				(length 2.54)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 0 180)
+				(length 2.54)
+				(name "D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

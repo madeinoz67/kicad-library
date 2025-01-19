@@ -164,7 +164,7 @@
 			)
 		)
 		(symbol "Battery,_Li-Ion,_1.0A,_TP4056_1_1"
-			(pin unspecified line
+			(pin input line
 				(at 10.16 1.27 180)
 				(length 2.56)
 				(name "TEMP"
@@ -182,7 +182,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 10.16 -2.54 180)
 				(length 2.56)
 				(name "PROG"
@@ -200,7 +200,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 0 -8.89 90)
 				(length 2.56)
 				(name "GND"
@@ -218,7 +218,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 0 10.16 270)
 				(length 2.56)
 				(name "VCC"
@@ -236,7 +236,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 10.16 3.81 180)
 				(length 2.56)
 				(name "BAT"
@@ -254,7 +254,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at -10.16 -2.54 0)
 				(length 2.56)
 				(name "~{STDBY}"
@@ -272,7 +272,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at -10.16 0 0)
 				(length 2.56)
 				(name "~{CHRG}"
@@ -290,7 +290,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -10.16 5.08 0)
 				(length 2.56)
 				(name "CE"
@@ -308,7 +308,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 2.54 -8.89 90)
 				(length 2.56)
 				(name "EP"
@@ -707,6 +707,150 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "HE61CN3002MR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HE61CN3002MR"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208041800_HEERMICR-HE61CN3002MR_C5123439.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.0v active low supervisor reset 8v max"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5123439"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Supervisor, reset"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT*23*3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HE61CN3002MR_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "HE61CN3002MR_1_1"
+			(pin power_out line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
